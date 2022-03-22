@@ -7,6 +7,7 @@ pipeline {
           nodejs('node-16.13.2'){
             sh "npm install"
             sh "npm install webpack -g"
+            sh "npm install webpack-cli -g"
           }
         }
       }
