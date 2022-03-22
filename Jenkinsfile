@@ -34,7 +34,7 @@ pipeline {
       steps  { 
         dir("frontend/") {
           nodejs('node-16.13.2') {
-            sh "npm run build"
+            sh "npm run build:prod"
           }
         } 
       }
